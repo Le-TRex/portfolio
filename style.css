@@ -1,0 +1,268 @@
+/*Page*/
+html {
+    height: 100vh;
+}
+body {
+    background: url(./images/backgroundGreen.jpg) fixed no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(108, 115, 61, 0.7);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main {
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(108, 115, 61, 0.7);
+    text-align : center;
+    line-height: 5vh;
+    font-size: 1.2em;
+    color : #D0E2F2;
+}
+/*Page*/
+/*Nav*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+nav a {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    list-style-type: none;
+    color : #D0E2F2;
+    font-weight: bold;
+    padding: 1vh 1vw;
+}
+
+a:link {
+    color:#ADD1F1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited, a:active {
+    color:#B3C3F2;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*Nav*/
+
+/*Index*/
+
+#background {
+    height: 50vh;
+    width: 90vw;
+    background-color: rgba(108, 115, 61, 0.7);
+    display: flex;
+    align-items: center;
+    color: #D0E2F2;
+    font-size: 4em;
+}
+#background p {
+    margin: auto;
+    text-align: center;
+}
+/*Index*/
+
+/*Resume*/
+#cv {
+    display: flex;
+    flex-direction: row;
+    color: #D0E2F2;
+    font-size: 1.2em;
+}
+
+#education {
+    height: 75vh;
+    width: 35vw;
+    background-color: rgba(108, 115, 61, 0.9);
+    margin: 0 2.5vw 0 2.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#educdetails {
+    height: 60vh;
+    max-width: 35vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+#educdetails ul {
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+}
+
+#experience {
+    height: 75vh;
+    width: 55vw;
+    background-color: rgba(108, 115, 61, 0.9);
+    margin : 0 2.5vw 0 2.5vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expdetails {
+    height: 60vh;
+    max-width: 55vw;
+    overflow: auto;
+}
+
+#expdetails ul {
+    padding-bottom: 2vh;
+}
+/*Resume*/
+
+/*Skills*/
+#skillbox {
+    height: 75vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#dev {
+    height: 75vh;
+    width: 40vw;
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(108, 115, 61, 0.9);
+}
+#dev div {
+    width: 15vw;
+    height: 20vh;
+}
+#dev img {
+    max-width: 15vw;
+    max-height: 20vh;
+}
+#soft {
+    max-height: 75vh;
+    max-width: 40vw;
+    Padding: 2vh 2vw;
+    background-color: rgba(108, 115, 61, 0.9);
+    overflow: auto;
+}
+#soft p {
+    color: #D0E2F2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#soft .visible {
+    color: #B3C3F2;
+    font-weight: normal;
+}
+#more p {
+    font-weight: normal;
+    color: #ADD1F1; 
+}
+/*Skills*/
+/*Projects*/
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+#git {
+    width: 90vw;
+    height: 7vh;
+    margin: 2vh 2vw;
+    background-color: rgba(108, 115, 61, 0.9);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #D0E2F2;
+}
+#proj {
+    width: 90vw;
+    height: 50vh;
+    margin: 2vh 2vw;
+    background-color: rgba(108, 115, 61, 0.9);
+}
+i.fab fa-github-square {
+    color: black;
+    font-weight: normal;
+    font-size: 1.4em;
+    text-shadow: 3px 3px 6px #B3C3F2;
+}
+/*Projects*/
+/*Contact*/
+#form {
+    height: 60vh;
+    width: 40vw;
+    background-color: rgba(108, 115, 61, 0.7); 
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+    align-items: center;
+    color:  #D0E2F2;
+    font-size: 1.2em;
+}
+
+/*Police and colors*/
+h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #B3C3F2
+}
+strong {
+    color: #B3C3F2;
+    font-weight: bold;
+}
+em {
+    text-decoration: underline;
+    font-style: normal;
+}
+li{
+    list-style-type: none;
+}
+/*Police and colors*/
+
+/*JavaScript*/
+.invisible {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.clickable {
+    cursor: pointer;    
+}
+/*Javascript*/
+
