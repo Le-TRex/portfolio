@@ -8,7 +8,7 @@ include './templates/header.php'
         </p>
     </div>
     <div id="proj">
-
+        <p>blablabla</p>
     </div>
 </div>
 

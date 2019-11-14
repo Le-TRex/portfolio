@@ -10,6 +10,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+a{
+    cursor: url(./images/yellowtrex.gif), auto;
+}
 
 header {
     height: 5vh;
@@ -215,11 +218,11 @@ a:visited, a:active {
     margin: 2vh 2vw;
     background-color: rgba(108, 115, 61, 0.9);
 }
-i.fab fa-github-square {
+i.fab{
     color: black;
     font-weight: normal;
     font-size: 1.4em;
-    text-shadow: 3px 3px 6px #B3C3F2;
+    /* text-shadow: 3px 3px 6px #B3C3F2; */
 }
 /*Projects*/
 /*Contact*/
@@ -262,7 +265,8 @@ li{
     display: block;
 }
 .clickable {
-    cursor: pointer;    
+    cursor: url(./images/yellowtrex.gif),pointer;
+    /* cursor: pointer;     */
 }
 /*Javascript*/
 
