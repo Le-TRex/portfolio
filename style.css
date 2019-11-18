@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 a{
-    cursor: url(./images/yellowtrex.gif), auto;
+    cursor: url(./images/browntrex.gif), auto;
 }
 
 header {
@@ -192,7 +192,7 @@ a:visited, a:active {
 }
 #more p {
     font-weight: normal;
-    color: #ADD1F1; 
+    color: #2D330B; 
 }
 /*Skills*/
 /*Projects*/
@@ -222,8 +222,38 @@ i.fab{
     color: black;
     font-weight: normal;
     font-size: 1.4em;
-    /* text-shadow: 3px 3px 6px #B3C3F2; */
+    text-shadow: 3px 3px 6px #B3C3F2;
 }
+#projnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#projnav li{
+    float: left;
+    font-size: 1.2em;
+    display: block;
+    color: #D0E2F2;
+    text-align: center;
+    padding: 1vh 2vw;
+    text-decoration: none;
+}
+#projnav li a:hover {
+    color: deeppink;
+    background-color: pink;
+}
+
+
+
+
+#proj img {
+    max-height: 35vh;
+    width: auto;
+}
+/* #proj {
+    text-align: center;
+} */
 /*Projects*/
 /*Contact*/
 #form {
@@ -265,8 +295,7 @@ li{
     display: block;
 }
 .clickable {
-    cursor: url(./images/yellowtrex.gif),pointer;
-    /* cursor: pointer;     */
+    cursor: url(./images/browntrex.gif),pointer;
 }
 /*Javascript*/
 

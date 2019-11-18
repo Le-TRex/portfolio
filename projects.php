@@ -8,7 +8,23 @@ include './templates/header.php'
         </p>
     </div>
     <div id="proj">
-        <p>blablabla</p>
+        <nav id="projnav">
+            <ul>
+                <li>CV du T-Rex</li>
+                <li>Carré magique</li>
+                <li>Site des Pitichats</li>
+            </ul>
+        </nav>
+        <div class="invisible">
+            <p>trex</p>
+        </div>
+        <div class="invisible">
+            <p>carré</p>
+        </div>
+        <div class="invisible">
+            <p>Mini site (d'un goût...certain) créé pour un TP qui portait sur l'utilisation des media queries</p>
+            <a href="https://github.com/Le-TRex/tpMediaQueries"><img src="./images/pitichats.png" alt="aperçu du site"></a>
+        </div>
     </div>
 </div>
 
