@@ -7,14 +7,14 @@ include './templates/header.php'
                 <div id="educdetails">
                     <ul>
                         <li>
-                            2019 : <strong>DWM</strong>
+                            2019 : <a href="https://www.it-akademy.fr/formation/developpeur-application-web-et-mobile"><strong>DWM</strong></a>
                             <ul>
                                 <li><em>D</em>éveloppeur <em>W</em>eb et <em>M</em>obile</li>
                                 <li><strong>IT-Akademy</strong>, Villeurbanne</li>
                             </ul>
                         </li>
                         <li>
-                            2016 : <strong>BTSA Anabiotec</strong>
+                            2016 : <a href="https://www.epl-saintgenislaval.fr/wp-content/uploads/BTSA-ANABIOTEC-1.pdf"><strong>BTSA Anabiotec</strong></a> 
                             <ul>
                                 <li><em>Ana</em>lyses <em>Bio</em>logiques et Bio<em>tech</em>nologies</li>
                                 <li>Alternance </li>
@@ -22,14 +22,14 @@ include './templates/header.php'
                             </ul>
                         </li>
                         <li>
-                            2009 : <strong>CAP Menuisier fabricant</strong>
+                            2009 : <a href="https://lyon.compagnonsdutourdefrance.org/formations/fiche/83"><strong>CAP Menuisier fabricant</strong></a>                            
                             <ul>
                                 <li>Alternance</li>
                                 <li><strong>FCMB</strong>, Villeurbanne et <strong>MVF</strong>, Irigny</li>
                             </ul>
                         </li>
                         <li>
-                            2007 : <strong>BAC STIAA</strong>
+                            2007 : <a href="https://www.lamartinierediderot.fr/fiche.php?num=81"><strong>BAC STIAA</strong> (actuel STD2A)</a>                            
                             <ul>
                                 <li><em>A</em>rts <em>A</em>ppliqués</li>
                                 <li><strong>Lycée La Martinière Diderot</strong></li>
@@ -81,7 +81,7 @@ include './templates/header.php'
                         2011 : <strong>Oératrice de conditionnement</strong>
                         <ul>
                             <li><strong>Sanofi Pasteur</strong>, Marcy l'Étoile</li>
-                            <li class="invisible">conditionnement de vaccins</li>
+                            <li class="invisible">Conditionnement de vaccins</li>
                         </ul>
                     </li>
                     <li>

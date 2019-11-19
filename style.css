@@ -76,9 +76,7 @@ a:visited, a:active {
     text-decoration: none;
 }
 /*Nav*/
-
 /*Index*/
-
 #background {
     height: 50vh;
     width: 90vw;
@@ -93,7 +91,6 @@ a:visited, a:active {
     text-align: center;
 }
 /*Index*/
-
 /*Resume*/
 #cv {
     display: flex;
@@ -112,8 +109,8 @@ a:visited, a:active {
     flex-direction: column;
 }
 #educdetails {
-    height: 60vh;
-    max-width: 35vw;
+    height: 65vh;
+    width: 35vw;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -138,8 +135,8 @@ a:visited, a:active {
 }
 
 #expdetails {
-    height: 60vh;
-    max-width: 55vw;
+    height: 65vh;
+    width: 55vw;
     overflow: auto;
 }
 
@@ -239,11 +236,14 @@ i.fab{
     padding: 1vh 2vw;
     text-decoration: none;
 }
-#projnav li a:hover {
-    color: deeppink;
-    background-color: pink;
+#projnav li:hover {
+    color: rgb(108, 115, 61);
+    background-color: #D0E2F2;
 }
-
+#projects div {
+    text-align: center;
+    color: #D0E2F2;
+}
 
 
 

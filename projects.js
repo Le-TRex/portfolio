@@ -2,24 +2,28 @@ let trex = document.querySelectorAll("li")[0];
 let square = document.querySelectorAll("li")[1];
 let cat = document.querySelectorAll("li")[2];
 
-// trex.addEventListener("click", ()=>{
-//     document.querySelectorAll("div")[3].classList.add("visible");
-//     document.querySelectorAll("div")[4].classList.add("invisible");
-//     document.querySelectorAll("div")[5].classList.add("invisible");
-// });
+let trexproj = document.querySelectorAll("div")[4];
+let squareproj = document.querySelectorAll("div")[5];
+let catproj = document.querySelectorAll("div")[6];
 
-// square.addEventListener("click", () => {
-//     document.querySelectorAll("div")[4].classList.add("visible");
-//     document.querySelectorAll("div")[3].classList.add("invisible");
-//     document.querySelectorAll("div")[5].classList.add("invisible");
+trex.addEventListener("click", ()=>{
+    trexproj.classList.add("visible");
+    squareproj.classList.remove("visible");
+    catproj.classList.remove("visible");
+});
 
-// });
+square.addEventListener("click", () => {
+    squareproj.classList.add("visible");
+    trexproj.classList.remove("visible");
+    catproj.classList.remove("visible");
 
-// cat.addEventListener("click", () => {
-//     document.querySelectorAll("div")[5].classList.add("visible");
-//     document.querySelectorAll("div")[3].classList.add("invisible");
-//     document.querySelectorAll("div")[4].classList.add("invisible");
-// });
+});
+
+cat.addEventListener("click", () => {
+    catproj.classList.add("visible");
+    trexproj.classList.remove("visible");
+    squareproj.classList.remove("visible");
+});
 
 trex.addEventListener("mouseover", ()=> {
     trex.classList.toggle("clickable");
