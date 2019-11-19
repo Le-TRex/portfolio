@@ -1,7 +1,4 @@
 /*Page*/
-html {
-    height: 100vh;
-}
 body {
     background: url(./images/backgroundGreen.jpg) fixed no-repeat;
     height: 100vh;
@@ -299,3 +296,11 @@ li{
 }
 /*Javascript*/
 
+/* @media screen and (max-width: 950px){
+    body {
+        background: url(./images/backgroundmq1.jpg);
+    };
+    #cv {
+        display: column;
+    }
+} */

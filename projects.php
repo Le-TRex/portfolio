@@ -21,7 +21,7 @@ include './templates/header.php'
                 <a href="https://github.com/Le-TRex/TRex_resume"><img src="./images/cvtrex.png" alt="Aperçu du CV du T-Rex"></a>
             </div>
             <div class="invisible">
-                <p>TP CSS pour s'entrâiner à l'utilisation des flexbox : </p>
+                <p>TP CSS pour s'entraîner à l'utilisation des flexbox : </p>
                 <a href="https://github.com/Le-TRex/magicalSquare"><img src="./images/magicalSquare.png" alt="Image du carré magique"></a>
             </div>
             <div class="invisible">

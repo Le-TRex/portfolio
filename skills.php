@@ -29,7 +29,7 @@ include './templates/header.php'
                 <p>Rigoureuse</p>
                 <p class="invisible">Avoir travaillé dans l'industrie pharmaceutique exigeait de moi un respect absolu de la législation et de modes opératoires stricts</p>
                 <p>Impliquée</p>
-                <p class="invisible">J'attache une grande importance à la qualité du travail que je fournis et je suis capable de fournir les efforts nécessaires à l'aboutissement de projets dans le respect des délais impartis</p>
+                <p class="invisible">J'attache une grande importance à la qualité du travail que je fournis et je suis capable de faire les efforts nécessaires à l'aboutissement de projets dans le respect des délais impartis</p>
                 <p>Curieuse</p>
                 <p class="invisible">Je recherche dans le secteur de l'informatique la variété des activités et l'évolution continue des technologies qui comblera ma soif de découvertes</p>
                 <p>Bon relationnel</p>

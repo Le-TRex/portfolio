@@ -78,7 +78,7 @@ include './templates/header.php'
                         </ul>
                     </li>
                     <li>
-                        2011 : <strong>Oératrice de conditionnement</strong>
+                        2011 : <strong>Opératrice de conditionnement</strong>
                         <ul>
                             <li><strong>Sanofi Pasteur</strong>, Marcy l'Étoile</li>
                             <li class="invisible">Conditionnement de vaccins</li>
